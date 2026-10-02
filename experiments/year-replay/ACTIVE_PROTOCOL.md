@@ -1,0 +1,3 @@
+# Active trading diagnostic
+
+Replace the sparse NFI rule with the installed, unmodified Freqtrade SampleStrategy. Same BTC/SOL year, 100 USDT paper wallet, two slots, 5m signals and validated real 1m execution-detail data. Restore this strategy's native ignore_roi_if_entry_signal=false; do not inherit NFI grinding settings. Run fixed 0.1%/side plus zero-fee control, not parameter optimization. Purpose: measure actual trading activity and distinguish entry sparsity from engine malfunction. Report both outcomes even if negative. This previously studied year is exploratory, not a fresh holdout. No live deployment or real funds.

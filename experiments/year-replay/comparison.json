@@ -1,0 +1,32 @@
+[
+  {
+    "case": "detail_two",
+    "days": 365,
+    "slots": 2,
+    "trades": 2,
+    "profit_usdt": 1.3200644799999999,
+    "final_equity": 101.32006448,
+    "wallet_drawdown_pct": 0.044389709418274054,
+    "forced_exits": 0,
+    "start": "2025-09-01 00:00:00+00:00",
+    "end": "2026-08-31 23:55:00+00:00",
+    "archive_sha256": "fa1dc3a74ba5e857068d102b59100c6be9ef09697d243cf182e4c9f9e5046819",
+    "approved": false,
+    "second_half_profit_usdt": 0.0
+  },
+  {
+    "case": "detail_one",
+    "days": 365,
+    "slots": 1,
+    "trades": 2,
+    "profit_usdt": 2.69139268,
+    "final_equity": 102.69139268,
+    "wallet_drawdown_pct": 0.04840403642998676,
+    "forced_exits": 0,
+    "start": "2025-09-01 00:00:00+00:00",
+    "end": "2026-08-31 23:55:00+00:00",
+    "archive_sha256": "c69630a8c66d06861513e2aee7f6c86c1315dc09be6748d4a5f7688c97f73cd6",
+    "approved": false,
+    "second_half_profit_usdt": 0.0
+  }
+]

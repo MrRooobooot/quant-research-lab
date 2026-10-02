@@ -1,0 +1,114 @@
+{
+  "rounds": [
+    {
+      "strategy": "Strategy001",
+      "fee_run": {
+        "case": "round_strategy001_fee",
+        "strategy": "Strategy001",
+        "fee": 0.001,
+        "trades": 351,
+        "entry_days": 193,
+        "final_usdt": 42.98311218000003,
+        "profit_usdt": -57.01688782000001
+      },
+      "zero_fee_run": {
+        "case": "round_strategy001_zerofee",
+        "strategy": "Strategy001",
+        "fee": 0.0,
+        "trades": 401,
+        "entry_days": 216,
+        "final_usdt": 57.548352220000034,
+        "profit_usdt": -42.45164778
+      },
+      "verdict": "REJECT"
+    },
+    {
+      "strategy": "SampleStrategy",
+      "fee_run": {
+        "case": "round_samplestrategy_fee",
+        "strategy": "SampleStrategy",
+        "fee": 0.001,
+        "trades": 320,
+        "entry_days": 200,
+        "final_usdt": 50.22243776000005,
+        "profit_usdt": -49.77756224000001
+      },
+      "zero_fee_run": {
+        "case": "round_samplestrategy_zerofee",
+        "strategy": "SampleStrategy",
+        "fee": 0.0,
+        "trades": 359,
+        "entry_days": 214,
+        "final_usdt": 69.7069889,
+        "profit_usdt": -30.293011099999998
+      },
+      "verdict": "REJECT"
+    },
+    {
+      "strategy": "Trend",
+      "fee_run": {
+        "case": "round_trend_fee",
+        "strategy": "Trend",
+        "fee": 0.001,
+        "trades": 521,
+        "entry_days": 229,
+        "final_usdt": 66.60049186999998,
+        "profit_usdt": -33.39950813
+      },
+      "zero_fee_run": {
+        "case": "round_trend_zerofee",
+        "strategy": "Trend",
+        "fee": 0.0,
+        "trades": 537,
+        "entry_days": 229,
+        "final_usdt": 111.37198237000001,
+        "profit_usdt": 11.371982370000001
+      },
+      "verdict": "REJECT"
+    },
+    {
+      "strategy": "Scalp",
+      "fee_run": {
+        "case": "round_scalp_fee",
+        "strategy": "Scalp",
+        "fee": 0.001,
+        "trades": 6654,
+        "entry_days": 365,
+        "final_usdt": 0.2243984499997822,
+        "profit_usdt": -99.77560155
+      },
+      "zero_fee_run": {
+        "case": "round_scalp_zerofee",
+        "strategy": "Scalp",
+        "fee": 0.0,
+        "trades": 8695,
+        "entry_days": 365,
+        "final_usdt": 115.14094814999996,
+        "profit_usdt": 15.14094815
+      },
+      "verdict": "REJECT"
+    },
+    {
+      "strategy": "Demo",
+      "fee_run": {
+        "case": "round_demo_fee",
+        "strategy": "Demo",
+        "fee": 0.001,
+        "trades": 7219,
+        "entry_days": 204,
+        "final_usdt": 0.17085857999992982,
+        "profit_usdt": -99.82914142
+      },
+      "zero_fee_run": {
+        "case": "round_demo_zerofee",
+        "strategy": "Demo",
+        "fee": 0.0,
+        "trades": 18113,
+        "entry_days": 365,
+        "final_usdt": 117.37062724000008,
+        "profit_usdt": 17.37062723999999
+      },
+      "verdict": "REJECT"
+    }
+  ]
+}

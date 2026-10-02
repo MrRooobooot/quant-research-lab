@@ -1,0 +1,26 @@
+{
+  "cycle": 1,
+  "model_retrained": false,
+  "exploratory": true,
+  "approved": false,
+  "test_start": "2024-06-11 11:20:00+00:00",
+  "test_end": "2024-11-20 17:35:00+00:00",
+  "test_rows": 467298,
+  "results": [
+    {
+      "threshold": 0.5,
+      "entries": 0,
+      "mean_gross_pct": null,
+      "mean_net_pct": null,
+      "net_win_pct": null
+    },
+    {
+      "threshold": 0.25,
+      "entries": 441000,
+      "mean_gross_pct": -0.00546852322515752,
+      "mean_net_pct": -0.24546852322515755,
+      "net_win_pct": 32.65532879818594
+    }
+  ],
+  "scope": "overlapping label proxy only; no portfolio, leverage or fill simulation; no live changes"
+}

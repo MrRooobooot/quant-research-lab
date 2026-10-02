@@ -1,0 +1,69 @@
+{
+  "pair": "BTCUSDT",
+  "timeframe": "5m",
+  "window": [
+    "2020-01-01 00:00:00+00:00",
+    "2023-12-31 23:55:00+00:00"
+  ],
+  "rule": "close >= close[-12]*1.02 and RSI14 < 70; entry next open; TP +6% / SL -3%, stop-first; one position",
+  "data_gap_bars": 15,
+  "results": [
+    {
+      "fee_per_side": 0.001,
+      "trades": 407,
+      "wins": 128,
+      "final_wallet": 1.6007313112855244,
+      "return_pct": -83.99268688714476,
+      "max_drawdown_pct": 99.88225714526469,
+      "buyhold_final": 58.64857200535354,
+      "buyhold_pct": 486.48572005353543,
+      "open_at_end": false
+    },
+    {
+      "fee_per_side": 0.0005,
+      "trades": 407,
+      "wins": 128,
+      "final_wallet": 2.3956948423208666,
+      "return_pct": -76.04305157679133,
+      "max_drawdown_pct": 99.82793143687186,
+      "buyhold_final": 58.70729397614952,
+      "buyhold_pct": 487.07293976149526,
+      "open_at_end": false
+    },
+    {
+      "fee_per_side": 0.0,
+      "trades": 407,
+      "wins": 128,
+      "final_wallet": 3.5847488654469637,
+      "return_pct": -64.15251134553036,
+      "max_drawdown_pct": 99.75593570502694,
+      "buyhold_final": 58.76604532996815,
+      "buyhold_pct": 487.66045329968154,
+      "open_at_end": false
+    }
+  ],
+  "yearly": [
+    {
+      "year": 2020,
+      "strategy_1x_fee_pct": -32.65172282591509,
+      "buyhold_pct": 301.98283865444375
+    },
+    {
+      "year": 2021,
+      "strategy_1x_fee_pct": -59.95023220598412,
+      "buyhold_pct": 59.789521578031525
+    },
+    {
+      "year": 2022,
+      "strategy_1x_fee_pct": -44.596382216665496,
+      "buyhold_pct": -64.20705572611595
+    },
+    {
+      "year": 2023,
+      "strategy_1x_fee_pct": 13.253851099609392,
+      "buyhold_pct": 155.61702284580184
+    }
+  ],
+  "verdict": "does_not_beat_buyhold",
+  "deployment_approved": false
+}

@@ -1,0 +1,74 @@
+{
+  "diagnostic_only": true,
+  "selection_uses_full_month_predictions": true,
+  "not_a_tradable_rule": true,
+  "costs_and_gap_validation_retained": true,
+  "records": [
+    {
+      "month": "2026-04-01",
+      "test_rows": 25881,
+      "normal_trades": 0,
+      "rows_above_threshold": 0,
+      "max_real_prediction_pct": 0.11737418435734538,
+      "forced_trades": 1,
+      "forced_pair": "SOL_USDT",
+      "forced_entry": "2026-04-08 00:30:00+00:00",
+      "real_gross_pct": -0.5180737077593478,
+      "forced_wallet_pnl_usdt": -0.07489787246473689,
+      "accounting_verified": true
+    },
+    {
+      "month": "2026-05-01",
+      "test_rows": 26743,
+      "normal_trades": 0,
+      "rows_above_threshold": 0,
+      "max_real_prediction_pct": 0.09312791472197006,
+      "forced_trades": 1,
+      "forced_pair": "ETH_USDT",
+      "forced_entry": "2026-05-17 23:45:00+00:00",
+      "real_gross_pct": -0.5506732546297965,
+      "forced_wallet_pnl_usdt": -0.07811749123621681,
+      "accounting_verified": true
+    },
+    {
+      "month": "2026-06-01",
+      "test_rows": 25881,
+      "normal_trades": 0,
+      "rows_above_threshold": 0,
+      "max_real_prediction_pct": 0.27033194951751777,
+      "forced_trades": 1,
+      "forced_pair": "SOL_USDT",
+      "forced_entry": "2026-06-04 02:05:00+00:00",
+      "real_gross_pct": 5.628545834577481,
+      "forced_wallet_pnl_usdt": 0.5321587758470052,
+      "accounting_verified": true
+    },
+    {
+      "month": "2026-07-01",
+      "test_rows": 26745,
+      "normal_trades": 0,
+      "rows_above_threshold": 0,
+      "max_real_prediction_pct": 0.08370918850755009,
+      "forced_trades": 1,
+      "forced_pair": "SOL_USDT",
+      "forced_entry": "2026-07-02 13:30:00+00:00",
+      "real_gross_pct": -0.45701581027667304,
+      "forced_wallet_pnl_usdt": -0.06886763058243162,
+      "accounting_verified": true
+    },
+    {
+      "month": "2026-08-01",
+      "test_rows": 26745,
+      "normal_trades": 0,
+      "rows_above_threshold": 0,
+      "max_real_prediction_pct": 0.32608113425104657,
+      "forced_trades": 1,
+      "forced_pair": "SOL_USDT",
+      "forced_entry": "2026-08-22 05:45:00+00:00",
+      "real_gross_pct": 1.0467848750266961,
+      "forced_wallet_pnl_usdt": 0.07965176246952588,
+      "accounting_verified": true
+    }
+  ],
+  "conclusion": "All five normal tests have zero eligible rows; all five forced single entries execute and reconcile. Threshold abstention, not ranking/execution failure."
+}

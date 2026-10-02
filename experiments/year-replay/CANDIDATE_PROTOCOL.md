@@ -1,0 +1,3 @@
+# One new active candidate
+
+Strategy001 from freqtrade/freqtrade-strategies, unmodified source, blob 352c344fdb07a56274357e1f534206cac8cc4995. EMA crossover with Heikin-Ashi filter; not a proven edge. Same 365-day BTC/SOL, 100 virtual USDT, two slots, 1m detail; native exit_profit_only=True restored, 200 startup candles for EMA100. Fee .001 and zero-fee control. No tuning. Activity screen: >=100 closed trades/year; then positive net result required before any further validation. This researched period is exploratory. No deployment. Reject on zero-fee loss. Source SHA256 2357996e6594458e8db45b5f757918462afa3c998de9d06e2af0c009ddc4b80d.

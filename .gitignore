@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+*.sqlite
+*.parquet
+venv/
+.venv/
+node_modules/
+.cache/
+*.egg-info/

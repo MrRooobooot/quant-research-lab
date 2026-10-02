@@ -1,0 +1,14 @@
+{
+  "wallet": 100,
+  "pair_returns": [
+    {
+      "pair": "BTC/USDT",
+      "return_ratio": -0.2755018789955207
+    },
+    {
+      "pair": "SOL/USDT",
+      "return_ratio": -0.4873188818956937
+    }
+  ],
+  "final_equity": 61.85896195543927
+}

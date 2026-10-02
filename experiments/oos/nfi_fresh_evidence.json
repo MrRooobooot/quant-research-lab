@@ -1,0 +1,42 @@
+{
+  "timerange": "20260801-20260916",
+  "pairs": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT",
+    "XRP/USDT",
+    "DOGE/USDT",
+    "ADA/USDT",
+    "LINK/USDT",
+    "LTC/USDT",
+    "AVAX/USDT",
+    "DOT/USDT"
+  ],
+  "command": [
+    "~/freqtrade-venv/bin/freqtrade",
+    "backtesting",
+    "--userdir",
+    "~/freqtrade",
+    "-c",
+    "~/freqtrade-research/nfi-oos/original/config.json",
+    "-s",
+    "NostalgiaForInfinityX8",
+    "--timerange",
+    "20260801-20260916",
+    "--cache",
+    "none",
+    "--export",
+    "trades",
+    "--backtest-directory",
+    "~/freqtrade-research/nfi-oos/oos-run/results",
+    "--no-color"
+  ],
+  "archive_sha256": "676141117e21573069048f6e13cb1410a6790c655d6615c6d4455220c0d63a40",
+  "trades": 1,
+  "profit_pct": 0.0747,
+  "wins": 1,
+  "losses": 0,
+  "dd_pct": 0.0,
+  "start": "2026-08-01 00:00:00",
+  "end": "2026-09-16 00:00:00"
+}

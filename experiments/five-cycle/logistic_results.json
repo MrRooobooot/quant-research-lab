@@ -1,0 +1,277 @@
+[
+  {
+    "cycle": 1,
+    "train_rows": 466700,
+    "test_rows": 467298,
+    "test_start": "2024-06-11 11:20:00+00:00",
+    "test_end": "2024-11-20 17:35:00+00:00",
+    "selected": 0,
+    "gross_mean_pct": null,
+    "net_mean_pct": null,
+    "unfiltered_gross_mean_pct": -0.0035692737482935495,
+    "train_feature_ranking": [
+      [
+        "dist_low60",
+        106.09612037619425
+      ],
+      [
+        "bar_vol",
+        66.98141442145038
+      ],
+      [
+        "vol_z",
+        32.36733338162006
+      ],
+      [
+        "rsi",
+        26.492526663424062
+      ],
+      [
+        "hour",
+        12.116242871064305
+      ],
+      [
+        "gap_pct",
+        9.39562615493923
+      ],
+      [
+        "dist_high60",
+        7.389049534645299
+      ],
+      [
+        "ret_12",
+        5.1614405749733825
+      ],
+      [
+        "ret_1",
+        1.8216881078436309
+      ],
+      [
+        "gap_slope",
+        0.0056468417792553665
+      ]
+    ],
+    "approved": false,
+    "scope": "overlapping label proxy; not executed portfolio trades"
+  },
+  {
+    "cycle": 2,
+    "train_rows": 933998,
+    "test_rows": 467311,
+    "test_start": "2024-11-20 17:40:00+00:00",
+    "test_end": "2025-05-01 23:55:00+00:00",
+    "selected": 0,
+    "gross_mean_pct": null,
+    "net_mean_pct": null,
+    "unfiltered_gross_mean_pct": -0.01058181902090553,
+    "train_feature_ranking": [
+      [
+        "bar_vol",
+        286.97182757955386
+      ],
+      [
+        "dist_low60",
+        135.91496096326455
+      ],
+      [
+        "hour",
+        52.574277365401116
+      ],
+      [
+        "dist_high60",
+        41.813780435368315
+      ],
+      [
+        "vol_z",
+        30.39875859725091
+      ],
+      [
+        "ret_12",
+        12.200496719698803
+      ],
+      [
+        "gap_slope",
+        11.917021411228216
+      ],
+      [
+        "rsi",
+        11.600108626663094
+      ],
+      [
+        "gap_pct",
+        2.8628994936088006
+      ],
+      [
+        "ret_1",
+        0.11635014842931711
+      ]
+    ],
+    "approved": false,
+    "scope": "overlapping label proxy; not executed portfolio trades"
+  },
+  {
+    "cycle": 3,
+    "train_rows": 1401309,
+    "test_rows": 467264,
+    "test_start": "2025-05-02 00:00:00+00:00",
+    "test_end": "2025-10-11 06:15:00+00:00",
+    "selected": 0,
+    "gross_mean_pct": null,
+    "net_mean_pct": null,
+    "unfiltered_gross_mean_pct": -0.002019288436090708,
+    "train_feature_ranking": [
+      [
+        "bar_vol",
+        602.708873347896
+      ],
+      [
+        "dist_low60",
+        242.70278024498106
+      ],
+      [
+        "dist_high60",
+        138.07368914353654
+      ],
+      [
+        "gap_slope",
+        80.95590820262625
+      ],
+      [
+        "hour",
+        72.38946406292509
+      ],
+      [
+        "ret_12",
+        61.240569177433954
+      ],
+      [
+        "rsi",
+        34.55465889471402
+      ],
+      [
+        "vol_z",
+        29.60710146525246
+      ],
+      [
+        "gap_pct",
+        25.09619709219825
+      ],
+      [
+        "ret_1",
+        1.0410485113963317
+      ]
+    ],
+    "approved": false,
+    "scope": "overlapping label proxy; not executed portfolio trades"
+  },
+  {
+    "cycle": 4,
+    "train_rows": 1868573,
+    "test_rows": 467268,
+    "test_start": "2025-10-11 06:20:00+00:00",
+    "test_end": "2026-03-22 12:35:00+00:00",
+    "selected": 0,
+    "gross_mean_pct": null,
+    "net_mean_pct": null,
+    "unfiltered_gross_mean_pct": -0.024232861829936007,
+    "train_feature_ranking": [
+      [
+        "bar_vol",
+        888.3402091437127
+      ],
+      [
+        "dist_high60",
+        296.01023943102666
+      ],
+      [
+        "dist_low60",
+        288.29640698924703
+      ],
+      [
+        "vol_z",
+        62.71319819939865
+      ],
+      [
+        "hour",
+        53.92209039766802
+      ],
+      [
+        "gap_slope",
+        51.977354165927004
+      ],
+      [
+        "ret_12",
+        42.65224047263659
+      ],
+      [
+        "gap_pct",
+        15.714109173574482
+      ],
+      [
+        "rsi",
+        11.779814256359904
+      ],
+      [
+        "ret_1",
+        3.78141550477208
+      ]
+    ],
+    "approved": false,
+    "scope": "overlapping label proxy; not executed portfolio trades"
+  },
+  {
+    "cycle": 5,
+    "train_rows": 2335841,
+    "test_rows": 467219,
+    "test_start": "2026-03-22 12:40:00+00:00",
+    "test_end": "2026-08-31 18:55:00+00:00",
+    "selected": 0,
+    "gross_mean_pct": null,
+    "net_mean_pct": null,
+    "unfiltered_gross_mean_pct": -0.014645788893316759,
+    "train_feature_ranking": [
+      [
+        "bar_vol",
+        1076.592830249082
+      ],
+      [
+        "dist_low60",
+        326.65268391328993
+      ],
+      [
+        "dist_high60",
+        281.03772792341033
+      ],
+      [
+        "hour",
+        102.53686755829524
+      ],
+      [
+        "ret_12",
+        77.02449614770524
+      ],
+      [
+        "rsi",
+        65.25814200686352
+      ],
+      [
+        "gap_slope",
+        53.06808090806316
+      ],
+      [
+        "gap_pct",
+        36.1065857519933
+      ],
+      [
+        "vol_z",
+        29.885361369535083
+      ],
+      [
+        "ret_1",
+        17.285425872741865
+      ]
+    ],
+    "approved": false,
+    "scope": "overlapping label proxy; not executed portfolio trades"
+  }
+]

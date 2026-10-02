@@ -1,0 +1,334 @@
+{
+ "strategy_name": "NostalgiaForInfinityX8",
+ "timeframe": "5m",
+ "total_trades": 31,
+ "wins": 29,
+ "losses": 2,
+ "profit_total": 0.11314632246,
+ "profit_total_abs": 226.29264492000001,
+ "final_balance": 2226.29264492,
+ "max_drawdown_account": 0.06945850389407804,
+ "max_drawdown_abs": 166.17738918,
+ "sharpe": 1.075896508111662,
+ "calmar": 22.5518598605033,
+ "backtest_start": "2026-05-01 00:00:00",
+ "backtest_end": "2026-09-16 00:00:00",
+ "max_open_trades": 5,
+ "dry_run_wallet": 2000,
+ "fee_per_side": 0.001,
+ "market_change": 0.12130504157729967,
+ "config": "config-nfi-paper.json (39 pairs, kucoin, max_open 5, wallet 2000)",
+ "timerange": "20260501-20260916",
+ "trades": [
+  {
+   "pair": "AAVE/USDT",
+   "open_date": "2026-05-10 20:50:00+00:00",
+   "close_date": "2026-05-11 00:55:00+00:00",
+   "trade_duration": 245,
+   "profit_ratio": 0.019264913690548596,
+   "profit_abs": 7.63647544,
+   "enter_tag": "145 ",
+   "exit_reason": "exit_profit_long_tc_t_1_1_m ( 145 )"
+  },
+  {
+   "pair": "INJ/USDT",
+   "open_date": "2026-05-23 05:45:00+00:00",
+   "close_date": "2026-05-23 12:00:00+00:00",
+   "trade_duration": 375,
+   "profit_ratio": 0.004789728006202892,
+   "profit_abs": 1.90587711,
+   "enter_tag": "143 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 143 )"
+  },
+  {
+   "pair": "DASH/USDT",
+   "open_date": "2026-05-22 09:35:00+00:00",
+   "close_date": "2026-05-23 21:30:00+00:00",
+   "trade_duration": 2155,
+   "profit_ratio": 0.004354130881537223,
+   "profit_abs": 1.81916842,
+   "enter_tag": "6 141 ",
+   "exit_reason": "exit_profit_long_normal_t_0_1_m ( 6 141 )"
+  },
+  {
+   "pair": "NEAR/USDT",
+   "open_date": "2026-06-02 15:35:00+00:00",
+   "close_date": "2026-06-02 17:35:00+00:00",
+   "trade_duration": 120,
+   "profit_ratio": 0.05342192238104751,
+   "profit_abs": 21.29652839,
+   "enter_tag": "142 ",
+   "exit_reason": "exit_long_tc_d_5_1 ( 142 )"
+  },
+  {
+   "pair": "ZEC/USDT",
+   "open_date": "2026-06-01 03:30:00+00:00",
+   "close_date": "2026-06-02 18:40:00+00:00",
+   "trade_duration": 2350,
+   "profit_ratio": 0.04806973850307054,
+   "profit_abs": 4.78860659,
+   "enter_tag": "64 ",
+   "exit_reason": "exit_profit_long_rebuy_t_4_1_m ( 64 )"
+  },
+  {
+   "pair": "AVAX/USDT",
+   "open_date": "2026-06-04 02:05:00+00:00",
+   "close_date": "2026-06-04 03:05:00+00:00",
+   "trade_duration": 60,
+   "profit_ratio": 0.05025687462209145,
+   "profit_abs": 20.31865705,
+   "enter_tag": "6 141 ",
+   "exit_reason": "exit_long_normal_d_5_1 ( 6 141 )"
+  },
+  {
+   "pair": "APT/USDT",
+   "open_date": "2026-06-04 02:05:00+00:00",
+   "close_date": "2026-06-04 03:05:00+00:00",
+   "trade_duration": 60,
+   "profit_ratio": 0.06292702272972785,
+   "profit_abs": 25.44115007,
+   "enter_tag": "2 102 142 ",
+   "exit_reason": "exit_long_normal_d_6_1 ( 2 102 142 )"
+  },
+  {
+   "pair": "ARB/USDT",
+   "open_date": "2026-06-04 02:05:00+00:00",
+   "close_date": "2026-06-04 03:05:00+00:00",
+   "trade_duration": 60,
+   "profit_ratio": 0.06088660463281654,
+   "profit_abs": 24.61621766,
+   "enter_tag": "141 ",
+   "exit_reason": "exit_long_tc_d_6_1 ( 141 )"
+  },
+  {
+   "pair": "ATOM/USDT",
+   "open_date": "2026-06-04 02:05:00+00:00",
+   "close_date": "2026-06-04 03:15:00+00:00",
+   "trade_duration": 70,
+   "profit_ratio": 0.053069681227326096,
+   "profit_abs": 21.45585901,
+   "enter_tag": "6 141 ",
+   "exit_reason": "exit_long_normal_d_5_1 ( 6 141 )"
+  },
+  {
+   "pair": "PUMP/USDT",
+   "open_date": "2026-06-05 06:25:00+00:00",
+   "close_date": "2026-06-05 06:30:00+00:00",
+   "trade_duration": 5,
+   "profit_ratio": 0.02267787158843013,
+   "profit_abs": 9.58931066,
+   "enter_tag": "2 6 101 ",
+   "exit_reason": "exit_long_normal_u_2 ( 2 6 101 )"
+  },
+  {
+   "pair": "OP/USDT",
+   "open_date": "2026-06-05 06:20:00+00:00",
+   "close_date": "2026-06-05 08:45:00+00:00",
+   "trade_duration": 145,
+   "profit_ratio": 0.01062264583759958,
+   "profit_abs": 4.49178401,
+   "enter_tag": "102 142 ",
+   "exit_reason": "exit_profit_long_tc_t_1_1_m ( 102 142 )"
+  },
+  {
+   "pair": "ZEC/USDT",
+   "open_date": "2026-06-05 18:55:00+00:00",
+   "close_date": "2026-06-05 19:50:00+00:00",
+   "trade_duration": 55,
+   "profit_ratio": 0.05396211292160898,
+   "profit_abs": 22.99156919,
+   "enter_tag": "141 142 ",
+   "exit_reason": "exit_long_tc_d_5_1 ( 141 142 )"
+  },
+  {
+   "pair": "OP/USDT",
+   "open_date": "2026-06-05 18:55:00+00:00",
+   "close_date": "2026-06-05 20:20:00+00:00",
+   "trade_duration": 85,
+   "profit_ratio": 0.05183166347182244,
+   "profit_abs": 22.08490885,
+   "enter_tag": "62 144 ",
+   "exit_reason": "exit_long_tc_d_5_1 ( 62 144 )"
+  },
+  {
+   "pair": "AVAX/USDT",
+   "open_date": "2026-06-06 04:10:00+00:00",
+   "close_date": "2026-06-06 06:10:00+00:00",
+   "trade_duration": 120,
+   "profit_ratio": 0.04189778175479687,
+   "profit_abs": 18.22649649,
+   "enter_tag": "145 ",
+   "exit_reason": "exit_long_tc_d_4_2 ( 145 )"
+  },
+  {
+   "pair": "ZEC/USDT",
+   "open_date": "2026-06-06 14:30:00+00:00",
+   "close_date": "2026-06-06 14:50:00+00:00",
+   "trade_duration": 20,
+   "profit_ratio": 0.003997379547010491,
+   "profit_abs": 1.75335101,
+   "enter_tag": "142 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 142 )"
+  },
+  {
+   "pair": "ZEC/USDT",
+   "open_date": "2026-06-06 15:00:00+00:00",
+   "close_date": "2026-06-06 16:00:00+00:00",
+   "trade_duration": 60,
+   "profit_ratio": 0.05165032872807288,
+   "profit_abs": 22.67236261,
+   "enter_tag": "144 ",
+   "exit_reason": "exit_long_tc_d_5_1 ( 144 )"
+  },
+  {
+   "pair": "ZEC/USDT",
+   "open_date": "2026-06-09 15:50:00+00:00",
+   "close_date": "2026-06-09 17:20:00+00:00",
+   "trade_duration": 90,
+   "profit_ratio": 0.06415544195558462,
+   "profit_abs": 28.47189496,
+   "enter_tag": "141 ",
+   "exit_reason": "exit_long_tc_d_6_1 ( 141 )"
+  },
+  {
+   "pair": "XMR/USDT",
+   "open_date": "2026-06-12 03:20:00+00:00",
+   "close_date": "2026-06-12 08:00:00+00:00",
+   "trade_duration": 280,
+   "profit_ratio": 0.02702931023517041,
+   "profit_abs": 12.14629104,
+   "enter_tag": "143 ",
+   "exit_reason": "exit_profit_long_tc_t_2_1_m ( 143 )"
+  },
+  {
+   "pair": "XMR/USDT",
+   "open_date": "2026-06-12 08:35:00+00:00",
+   "close_date": "2026-06-12 10:05:00+00:00",
+   "trade_duration": 90,
+   "profit_ratio": 0.06500942405138052,
+   "profit_abs": 29.37492204,
+   "enter_tag": "141 143 163 ",
+   "exit_reason": "exit_long_tc_d_6_1 ( 141 143 163 )"
+  },
+  {
+   "pair": "XMR/USDT",
+   "open_date": "2026-06-12 15:25:00+00:00",
+   "close_date": "2026-06-15 20:20:00+00:00",
+   "trade_duration": 4615,
+   "profit_ratio": 0.025302973641498326,
+   "profit_abs": 13.88708375,
+   "enter_tag": "145 ",
+   "exit_reason": "exit_long_tc_w_3_1 ( 145 )"
+  },
+  {
+   "pair": "XLM/USDT",
+   "open_date": "2026-06-16 01:55:00+00:00",
+   "close_date": "2026-06-16 08:55:00+00:00",
+   "trade_duration": 420,
+   "profit_ratio": 0.044344492254641044,
+   "profit_abs": 5.10462514,
+   "enter_tag": "64 ",
+   "exit_reason": "exit_long_rebuy_d_4_1 ( 64 )"
+  },
+  {
+   "pair": "INJ/USDT",
+   "open_date": "2026-06-17 22:05:00+00:00",
+   "close_date": "2026-06-18 03:15:00+00:00",
+   "trade_duration": 310,
+   "profit_ratio": 0.010220896072072083,
+   "profit_abs": 4.71657324,
+   "enter_tag": "145 ",
+   "exit_reason": "exit_profit_long_tc_t_1_1_m ( 145 )"
+  },
+  {
+   "pair": "FIL/USDT",
+   "open_date": "2026-06-02 14:25:00+00:00",
+   "close_date": "2026-06-24 16:50:00+00:00",
+   "trade_duration": 31825,
+   "profit_ratio": 0.022423790405329616,
+   "profit_abs": 8.22405013,
+   "enter_tag": "120 ",
+   "exit_reason": "exit_bad_trade_abandon_22d ( 120 )"
+  },
+  {
+   "pair": "BB/USDT",
+   "open_date": "2026-08-21 13:05:00+00:00",
+   "close_date": "2026-08-21 13:30:00+00:00",
+   "trade_duration": 25,
+   "profit_ratio": 0.00624994839870873,
+   "profit_abs": 2.88993834,
+   "enter_tag": "4 ",
+   "exit_reason": "exit_profit_long_normal_t_0_1_m ( 4 )"
+  },
+  {
+   "pair": "DASH/USDT",
+   "open_date": "2026-08-22 05:30:00+00:00",
+   "close_date": "2026-08-22 08:05:00+00:00",
+   "trade_duration": 155,
+   "profit_ratio": 0.003389984244560029,
+   "profit_abs": 1.56946417,
+   "enter_tag": "143 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 143 )"
+  },
+  {
+   "pair": "XRP/USDT",
+   "open_date": "2026-08-22 08:05:00+00:00",
+   "close_date": "2026-08-23 14:55:00+00:00",
+   "trade_duration": 1850,
+   "profit_ratio": 0.0030152768247823556,
+   "profit_abs": 1.7461552900000001,
+   "enter_tag": "144 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 144 )"
+  },
+  {
+   "pair": "DASH/USDT",
+   "open_date": "2026-08-30 23:50:00+00:00",
+   "close_date": "2026-08-31 01:15:00+00:00",
+   "trade_duration": 85,
+   "profit_ratio": 0.005766662221804454,
+   "profit_abs": 2.67358662,
+   "enter_tag": "142 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 142 )"
+  },
+  {
+   "pair": "DASH/USDT",
+   "open_date": "2026-09-04 12:35:00+00:00",
+   "close_date": "2026-09-04 20:25:00+00:00",
+   "trade_duration": 470,
+   "profit_ratio": 0.10049737370418249,
+   "profit_abs": 46.64647753,
+   "enter_tag": "142 ",
+   "exit_reason": "exit_long_tc_d_10_1 ( 142 )"
+  },
+  {
+   "pair": "OP/USDT",
+   "open_date": "2026-09-15 18:50:00+00:00",
+   "close_date": "2026-09-15 20:25:00+00:00",
+   "trade_duration": 95,
+   "profit_ratio": 0.00854056186772455,
+   "profit_abs": 3.93064929,
+   "enter_tag": "141 ",
+   "exit_reason": "exit_profit_long_tc_t_0_1_m ( 141 )"
+  },
+  {
+   "pair": "BCH/USDT",
+   "open_date": "2026-09-10 13:15:00+00:00",
+   "close_date": "2026-09-16 00:00:00+00:00",
+   "trade_duration": 7845,
+   "profit_ratio": -0.06695631253107712,
+   "profit_abs": -32.39079297,
+   "enter_tag": "141 ",
+   "exit_reason": "force_exit"
+  },
+  {
+   "pair": "DASH/USDT",
+   "open_date": "2026-09-06 07:15:00+00:00",
+   "close_date": "2026-09-16 00:00:00+00:00",
+   "trade_duration": 13965,
+   "profit_ratio": -0.1365294203217832,
+   "profit_abs": -133.78659621,
+   "enter_tag": "142 ",
+   "exit_reason": "force_exit"
+  }
+ ]
+}

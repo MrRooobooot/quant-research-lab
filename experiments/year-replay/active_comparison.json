@@ -1,0 +1,26 @@
+[
+  {
+    "case": "active_fee",
+    "trades": 320,
+    "trades_per_day": 0.8767123287671232,
+    "active_entry_days": 200,
+    "profit_usdt": -49.77756224000001,
+    "final_equity": 50.22243775999999,
+    "snapshot_drawdown_pct": 61.07884668172774,
+    "start": "2025-09-01 00:00:00",
+    "end": "2026-08-31 23:55:00",
+    "approved": false
+  },
+  {
+    "case": "active_zero_fee",
+    "trades": 359,
+    "trades_per_day": 0.9835616438356164,
+    "active_entry_days": 214,
+    "profit_usdt": -30.293011099999998,
+    "final_equity": 69.7069889,
+    "snapshot_drawdown_pct": 47.556399289253214,
+    "start": "2025-09-01 00:00:00",
+    "end": "2026-08-31 23:55:00",
+    "approved": false
+  }
+]

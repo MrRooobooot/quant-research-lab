@@ -1,0 +1,14 @@
+{
+  "source_zip": "~/freqtrade/backtest_results/backtest-result-2026-09-16_12-05-30.zip",
+  "source_sha256": "385bf358b16d548649bb7ae341633b5f9fe7b2e79b8e1731f80f014b8043f982",
+  "archived_sha256": "385bf358b16d548649bb7ae341633b5f9fe7b2e79b8e1731f80f014b8043f982",
+  "stats": {
+    "trades": 120,
+    "profit_pct": 111.2129,
+    "wins": 117,
+    "losses": 3,
+    "dd_pct": 2.1372,
+    "start": "2024-02-01 00:00:00",
+    "end": "2026-08-01 00:00:00"
+  }
+}

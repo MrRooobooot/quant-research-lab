@@ -1,0 +1,67 @@
+{
+  "protocol_sha256": "7490e96c87dcea45dfa93fcbc907c4b93b8e3e989672a01a8f4ddf06e2784b24",
+  "sources": {
+    "~/freqtrade/data/binance/BTC_USDT-5m.feather": "0acc2910db7c36c380ca13fd3cf72ab3c0ec847574512a5ebef96778197f52ea",
+    "~/freqtrade/data/binance/ETH_USDT-5m.feather": "ffcb169b498b4e6d24e58dada7998702e2c1773cbb066df14545a74d97ed4b93",
+    "~/freqtrade/data/binance/SOL_USDT-5m.feather": "26e5260832d054af7e2d4f506cb13027b1017b92116cf440baa7fc773e005f31"
+  },
+  "months": [
+    {
+      "month": "2026-04-01",
+      "train_rows": 709114,
+      "test_rows": 25881,
+      "trades": 0,
+      "return_pct": 0.0,
+      "prediction_min": -0.001202953849192326,
+      "prediction_max": 0.0011737418435734538,
+      "unfiltered_mean_gross_pct": 0.009655565484039378
+    },
+    {
+      "month": "2026-05-01",
+      "train_rows": 735034,
+      "test_rows": 26743,
+      "trades": 0,
+      "return_pct": 0.0,
+      "prediction_min": -0.0007685505437179086,
+      "prediction_max": 0.0009312791472197006,
+      "unfiltered_mean_gross_pct": -0.006483974707375443
+    },
+    {
+      "month": "2026-06-01",
+      "train_rows": 761816,
+      "test_rows": 25881,
+      "trades": 0,
+      "return_pct": 0.0,
+      "prediction_min": -0.0018828314674059071,
+      "prediction_max": 0.002703319495175178,
+      "unfiltered_mean_gross_pct": -0.02518920720904028
+    },
+    {
+      "month": "2026-07-01",
+      "train_rows": 787736,
+      "test_rows": 26745,
+      "trades": 0,
+      "return_pct": 0.0,
+      "prediction_min": -0.0009480446344661801,
+      "prediction_max": 0.0008370918850755008,
+      "unfiltered_mean_gross_pct": 0.011447573626608818
+    },
+    {
+      "month": "2026-08-01",
+      "train_rows": 814520,
+      "test_rows": 26745,
+      "trades": 0,
+      "return_pct": 0.0,
+      "prediction_min": -0.0019813236955278707,
+      "prediction_max": 0.0032608113425104655,
+      "unfiltered_mean_gross_pct": 0.03932740736938169
+    }
+  ],
+  "trades": [],
+  "final_wallet": 10.0,
+  "return_pct": 0.0,
+  "closed_equity_drawdown_pct": 0.0,
+  "screen_pass": false,
+  "deployment_approved": false,
+  "scope": "retrospective fractional spot portfolio cost proxy, not exchange execution"
+}

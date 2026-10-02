@@ -1,0 +1,9 @@
+{
+ "rules": {
+  "min_gap_pct": 0.0,
+  "min_bar_vol_pct": 0.0,
+  "max_rsi_entry": 100.0
+ },
+ "updated": 1789568780939,
+ "lessons_seen": 0
+}

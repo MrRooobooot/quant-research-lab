@@ -1,0 +1,33 @@
+{
+  "slots": 1,
+  "basis": "prefix only",
+  "control": {
+    "case": "prefix_two",
+    "days": 181,
+    "slots": 2,
+    "trades": 2,
+    "profit_usdt": 1.3200644799999999,
+    "final_equity": 101.32006448,
+    "wallet_drawdown_pct": 0.044389709418274054,
+    "forced_exits": 0,
+    "start": "2025-09-01 00:00:00+00:00",
+    "end": "2026-03-01 00:00:00+00:00",
+    "archive_sha256": "41b9ebbb104f60c8983eb030575d1ccb8c05fba0724c14eee97c336d39d09b5d",
+    "approved": false
+  },
+  "candidate": {
+    "case": "prefix_one",
+    "days": 181,
+    "slots": 1,
+    "trades": 2,
+    "profit_usdt": 2.69139268,
+    "final_equity": 102.69139268,
+    "wallet_drawdown_pct": 0.04840403642998676,
+    "forced_exits": 0,
+    "start": "2025-09-01 00:00:00+00:00",
+    "end": "2026-03-01 00:00:00+00:00",
+    "archive_sha256": "450e4d79ec94e7c0ca9c75dedae81cebe587074615cb0ec76c44ad7b739ca5e7",
+    "approved": false
+  },
+  "approved": false
+}

@@ -1,0 +1,61 @@
+Self-checks run: 2026-10-03 01:40:46 +0330
+cwd: ~/freqtrade/panel
+python: Python 3.12.14
+
+===== check_bars_log.py =====
+SELF-CHECK OK | rows: [(1789612800000, 1)]
+exit=0
+===== check_blind_gap.py =====
+check_blind_gap OK [["feed_gap", "gap 10.0 min — no ticks, SL/TP did not run; open_position=True"], [75000.0, "feed_gap"]]
+exit=0
+===== check_calibration_contract.py =====
+PASS: identical trailing-return feature, clean windows, duplicate rejection
+exit=0
+===== check_entry_gate.py =====
+replay of 240 real bars: opens=0 expected-move refusals=0
+trade #3 entry replay: SKIPPED — live bar buffer no longer covers that window
+OK
+feed-outage padding: 7 flat bars inserted, series contiguous
+live buffer continuity: 240 bars, 0 gaps, 0 flat pad bars
+OK
+exit=0
+===== check_feed_policy.py =====
+ok
+ok-log
+exit=0
+===== check_fetch_bound.py =====
+pass
+exit=0
+===== check_move_realism.py =====
+{
+  "windows": 14107,
+  "median_ratio": 0.19498129952083554,
+  "configured_discount": 0.17,
+  "unadjusted_pass": 946,
+  "discounted_pass": 0,
+  "removed_windows_reaching_tp": 21,
+  "calibration_status": "within_tolerance",
+  "note": "overlapping diagnostic windows, not independent trades; no automatic parameter changes"
+}
+exit=0
+===== check_rule_proposals.py =====
+PASS: proposals recorded, live rules unchanged
+exit=0
+===== check_server_safety.py =====
+2026-10-03 01:40:49 tp -> 0.80%
+2026-10-03 01:40:49 sl -> -0.40%
+2026-10-03 01:40:49 settings restored from panel_state.json: tp=0.008 sl=-0.004 running=True
+2026-10-03 01:40:49 settings restored from panel_state.json: tp=0.01 sl=-0.005 running=False
+2026-10-03 01:40:49 learned rules restored (validated, floor applied): {'min_gap_pct': 0.02, 'min_bar_vol_pct': 0.03, 'max_rsi_entry': 65.0}
+2026-10-03 01:40:49 learned rules restored (validated, floor applied): {'min_gap_pct': 0.04, 'min_bar_vol_pct': 0.03, 'max_rsi_entry': 60.0}
+2026-10-03 01:40:49 CLOSE manual entry=100.00 exit=101.00 pnl=+0.08 | rules={'min_gap_pct': 0.04, 'min_bar_vol_pct': 0.03, 'max_rsi_entry': 60.0}
+PASS: server safety regressions OK (isolated temp dir, private port)
+exit=0
+===== check_training_safety.py =====
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.279s
+
+OK
+Synthetic TEST DATA only; no live service writes.
+exit=0

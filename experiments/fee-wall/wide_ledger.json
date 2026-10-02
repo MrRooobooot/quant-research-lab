@@ -1,0 +1,37 @@
+{
+  "Demo": {
+    "fee": {
+      "trades": 4240,
+      "final_usdt": 1.7164425999997945,
+      "profit_usdt": -98.2835574
+    }
+  },
+  "Scalp": {
+    "fee": {
+      "trades": 4156,
+      "final_usdt": 1.713391109999776,
+      "profit_usdt": -98.28660889000001
+    }
+  },
+  "Trend": {
+    "fee": {
+      "trades": 1563,
+      "final_usdt": 2.480152250000259,
+      "profit_usdt": -97.51984775
+    }
+  },
+  "SampleStrategy": {
+    "fee": {
+      "trades": 480,
+      "final_usdt": 22.19797424000012,
+      "profit_usdt": -77.80202576
+    }
+  },
+  "Strategy001": {
+    "fee": {
+      "trades": 518,
+      "final_usdt": 21.844723089999917,
+      "profit_usdt": -78.15527691
+    }
+  }
+}
